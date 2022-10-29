@@ -9,9 +9,9 @@ class CustomAccessorRectangle(private val height: Int, private val width: Int) {
             return height == width
         }
 
-    fun main() {
-        val rect =  CustomAccessorRectangle(40,50)
-        println("Is square ? ${rect.isSquare}")
-    }
+}
 
+fun main(args: Array<String>) {
+    val rect =  CustomAccessorRectangle(40,50)
+    println("Is square ? ${rect.isSquare}")
 }
