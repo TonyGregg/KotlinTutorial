@@ -1,4 +1,6 @@
-class Basics {
+package basics
+
+class VariablesAndFunctions {
 
     fun main() {
         var answer: Int

@@ -1,3 +1,5 @@
+package basics
+
 class FizFuzz {
     fun fizFuzzFn(i: Int) = when {
         i %  15 == 0 -> "FizBuzz"

@@ -1,3 +1,5 @@
+package basics
+
 /**
  * Custom accessors
  * Suppose you declare a rectangle that can say whether it’s a square. You don’t need to store that information as a

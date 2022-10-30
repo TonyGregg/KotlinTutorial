@@ -1,3 +1,5 @@
+package basics
+
 /**
  * Created on Thu, 10/27/22 at 8:23 PM by Genil.
  *
@@ -8,10 +10,10 @@
  * Original class
  *
  * /* Java */
-public class ConvertedHuman {
+public class basics.ConvertedHuman {
 private final String name;
 
-public ConvertedHuman(String name) {
+public basics.ConvertedHuman(String name) {
 this.name = name;
 }
 
