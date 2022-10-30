@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d51c8f9f-6111-4208-be87-7e1d94888a45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/synopsys_code_sight_state.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/EnumSample.kt" afterDir="false" />
+    <list default="true" id="d51c8f9f-6111-4208-be87-7e1d94888a45" name="Changes" comment="Moved the classes to a package. Added enum learning.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/Color.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Basics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/basics/VariablesAndFunctions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ConvertedHuman.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/basics/ConvertedHuman.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/CustomAccessorRectangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/basics/CustomAccessorRectangle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/FizFuzz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/basics/FizFuzz.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/basics/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ObjectCreator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/basics/ObjectCreator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/basics/EnumSample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/basics/EnumSample.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,17 +32,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/genil/src/kotlin/KotlinTutorial/src/main&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TF_FMT": "false",
+    "last_opened_file_path": "/Users/genil/src/kotlin/KotlinTutorial/src/main",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main" />
@@ -105,6 +99,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667077660009</updated>
     </task>
+    <task id="LOCAL-00001" summary="Moved the classes to a package. Added enum learning.">
+      <created>1667097737765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667097737765</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,5 +119,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Moved the classes to a package. Added enum learning." />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved the classes to a package. Added enum learning." />
   </component>
 </project>

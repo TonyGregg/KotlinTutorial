@@ -1,23 +1,33 @@
 package basics
+import basics.Color.*
 
-enum class Color {
-    RED, ORANGE, YELLOW, GREEN, BLUE, INDIGO, VIOLET
-}
 class EnumSample {
     fun getMnemonic(color: Color) = // Returns when expressed directly
         when (color) {
-            Color.RED -> "Richard"
-            Color.ORANGE -> "Of"
-            Color.YELLOW -> "York"
+            RED -> "Richard"
+            ORANGE -> "Of"
+            YELLOW -> "York"
             else -> {"Nothing"}
+        }
+
+    /**
+     *  get the warm indicator
+     *  multi-line switch
+     */
+    fun getWarmth(color: Color) =
+        when (color) {
+            RED, ORANGE, YELLOW -> "warm"
+            GREEN -> "neutral"
+            BLUE, INDIGO, VIOLET -> "cold"
         }
 }
 
 fun main() {
     var enumSample = EnumSample();
-    var mnemonic = enumSample.getMnemonic(Color.YELLOW)
+    var mnemonic = enumSample.getMnemonic(YELLOW)
     println("Mnemonic : $mnemonic")
-    mnemonic = enumSample.getMnemonic(Color.GREEN)
+    mnemonic = enumSample.getMnemonic(GREEN)
     println("Mnemonic : $mnemonic")
+    println("Warm indicator :  ${enumSample.getWarmth(INDIGO)}")
 
 }
